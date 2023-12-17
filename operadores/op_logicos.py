@@ -15,3 +15,14 @@ rta8 = False | False # devuelve false
 #NOT invierte el valor
 rta9 = not True # devuelve false
 rta10 = not False # devuelve true
+
+edad = 18
+edad_registrada = 18
+
+dni = 36544817
+dni_registrado = 36544817
+
+if edad == edad_registrada and dni == dni_registrado:
+    print('accediendo')
+else:
+    print('sin acceso')
