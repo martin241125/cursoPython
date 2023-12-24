@@ -19,8 +19,8 @@ def crear_contraseña_random(num):
     c2 = num
     c3 = num - 5
     contraseña = f'{chars[c1]}{chars[c2]}{chars[c3]}{num * 2}'
-    return contraseña
+    return contraseña, num
 
-password = crear_contraseña_random(5)
-frase = f'Tu contraseña nueva es: {password}'
-print(frase)
+password, primer_numero = crear_contraseña_random(553)
+print(f'Tu contraseña nueva es: {password}')
+print(f'tu numero elegido fue : {primer_numero}')
