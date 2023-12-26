@@ -33,3 +33,21 @@ for nume in numeros:
     print(f'ejecutando el ultimo bucle, valor actual: {nume}')
 else:
     print('aca termina')
+    
+arr = [1,2,4,8]
+k = 8
+
+
+
+
+def findNumber(arr, k):
+    # Write your code here
+    lista = arr
+    numero_buscado = k
+    if numero_buscado in lista:
+        return 'YES'
+    else:
+        return 'NO'
+    
+    
+print(findNumber(arr,3))

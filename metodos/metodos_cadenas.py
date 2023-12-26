@@ -1,6 +1,10 @@
 cadena1 = 'jose,martin,miño'
 cadena2 = 'esta casado'
 
+
+
+busqueda_numero = lista.index
+
 # conver mayusculas
 cadena1.upper()
 
