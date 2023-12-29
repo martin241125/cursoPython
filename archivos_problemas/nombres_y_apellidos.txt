@@ -1,0 +1,16 @@
+Los datos son:
+Nombres: martin
+Apellidos: miño
+-----
+Nombres: cecilia
+Apellidos: bustamante
+-----
+Nombres: josefina
+Apellidos: cabral
+-----
+Nombres: mirta
+Apellidos: carlox
+-----
+Nombres: ruben
+Apellidos: curry
+-----
