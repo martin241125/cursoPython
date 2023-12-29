@@ -1,9 +1,14 @@
-from modulos_saludar import saludar
-from funciones_.funcion_multi import multiplicar
+#from modulos_saludar import saludar
+#from funciones_.funcion_multi import multiplicar
+import sys
 
-saludo = saludar('Martin')
-print(saludo)
+sys.path.append('c:\\Users\\martin\\Desktop\\Curso de python\\funciones')
 
-resultado = multiplicar(4)
+from funciones_datos_extra import frase
 
-print(resultado)
+print(frase('Martin', 32, False))
+
+
+
+
+

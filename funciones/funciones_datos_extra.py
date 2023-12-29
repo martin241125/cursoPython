@@ -6,5 +6,5 @@ def frase(nombre,edad:int,casado:bool = False):
     else:
         return f'Hola {nombre} tienes {edad} de edad y te encuentras soltero'
 
-print(frase('Martin',32,True))
+
 
