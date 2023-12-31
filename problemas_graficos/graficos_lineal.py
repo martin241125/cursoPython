@@ -7,4 +7,6 @@ print(df)
 
 sns.lineplot(x="fecha", y="gastos",data=df)
 
+plt.plot('01-04',1500,'o')
+
 plt.show()
